@@ -1,0 +1,42 @@
+
+<!-- Include Header -->
+<%-include('include/_header')%>
+<!-- Include Header -->
+
+  <!-- Mian Site -->
+  <main id="card site-main">
+    <div class="container">
+      <div class="card-body mt-3 box-nav d-flex ">
+        <a href="/add-user" class="shadow-lg p-1 bg-success text-white rounded">
+          <h4>Add User</h3>
+        </a>
+      </div>
+    </div>
+
+    <!-- form -->
+    <form class="container px-5" action="/" method="post">
+      <table class="table px-5">
+          <thead>
+            <tr class="text-center">
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Status</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <%-include('include/_show')%>
+          </tbody>
+        </table>
+    </form>
+  
+  </main>
+  <!-- Mian Site -->
+
+    
+
+<!-- Include Footer -->
+<%-include('include/_footer')%>
+<!-- Include Footer -->

@@ -1,0 +1,54 @@
+
+<form action="/api/users" class="mb-3 px-5" method="post" id="add_user">
+    <div class="mb-3 px-5">
+      <label for="name" class="form-label">Name </label>
+      <input type="hidden" name="id" value="">
+      <input type="text" name="name" value="" class="form-control" id="name" placeholder="Chau Nguyen">
+    </div>
+
+    <div class="mb-3 px-5">
+      <label for="email" class="form-label">Email </label>
+      <input type="email" name="email" value=""  class="form-control" id="email" placeholder="name@example.com">
+    </div>
+
+    <div class="row  px-5 p-2">
+      <div class="col-2">
+        Gender
+      </div>
+      <div class="col-1 form-check">
+        <input class="form-check-input" type="radio" name="gender" value="Male" id="gender-male" checked>
+        <label class="form-check-label" for="gender-male">
+          Male
+        </label>
+      </div>
+      <div class="col-1 form-check">
+        <input class="form-check-input" type="radio" name="gender" value="Female" id="gender-female">
+        <label class="form-check-label" for="gender-female">
+          Female
+        </label>
+      </div>
+    </div>
+
+    <div class="row px-5 p-2">
+      <div class="col-2">
+        Status
+      </div>
+      <div class="col-1 form-check">
+        <input class="form-check-input" type="radio" name="status" value="Active" id="status-ac" checked>
+        <label class="form-check-label" for="status-ac">
+          Active
+        </label>
+      </div>
+      <div class="col-1 form-check">
+        <input class="form-check-input" type="radio" name="status" value="Inactive" id="status-in__ac" >
+        <label class="form-check-label" for="status-in__ac">
+          Inactive
+        </label>
+      </div>
+    </div>
+
+    <div class="mb-3 px-5 d-grid gap-2 p-3">
+      <input type="submit" class="btn btn-primary" value="Save"></button>
+    </div>
+
+  </form>

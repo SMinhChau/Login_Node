@@ -1,0 +1,87 @@
+<!-- Include Header -->
+<%-include('include/_header')%>
+<!-- Include Header -->
+
+<!-- Mian Site -->
+<main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex ">
+          <div class="filter p-3">
+            <a href="/"><i class="fa fa-list" aria-hidden="true"></i> All User</a>
+          </div>
+        </div>
+      </div> 
+
+    <!-- form -->
+    <div class="container">
+        <div class="card mt-2 shadow-sm bg-body rounded">
+            <div class="card-body text-center p-0">
+                <h3 class="title-form p-3">Update User</h3>
+            </div>
+            
+            <!-- Include Update -->
+            <form class="mb-3 px-5" method="post" id="update_user">
+                <div class="mb-3 px-5">
+                    <label for="exampleFormControlInput1" class="form-label">Name </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Chau Nguyen">
+                </div>
+
+                <div class="mb-3 px-5">
+                    <label for="exampleFormControlInput1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+
+
+                <div class="row  px-5 p-2">
+                    <div class="col-2">
+                        Gender
+                    </div>
+                    <div class="col-1 form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="gender-male" checked>
+                        <label class="form-check-label" for="gender-male">
+                            Male
+                        </label>
+                    </div>
+                    <div class="col-1 form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="gender-female">
+                        <label class="form-check-label" for="gender-female">
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row px-5 p-2">
+                    <div class="col-2">
+                        Status
+                    </div>
+                    <div class="col-1 form-check">
+                        <input class="form-check-input" type="radio" name="ststus" id="status-ac" checked>
+                        <label class="form-check-label" for="status-ac">
+                            Active
+                        </label>
+                    </div>
+                    <div class="col-1 form-check">
+                        <input class="form-check-input" type="radio" name="ststus" id="status-in__ac">
+                        <label class="form-check-label" for="status-in__ac">
+                            Inactive
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 px-5 d-grid gap-2 p-3">
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+
+            </form>
+            <!-- Include Footer -->
+        </div>
+
+    </div>
+</main>
+<!-- Mian Site -->
+
+
+<!-- Include Footer -->
+<%-include('include/_footer')%>
+<!-- Include Footer -->

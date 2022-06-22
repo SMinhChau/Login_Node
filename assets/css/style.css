@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title */
+.title-header{
+ 
+    background-color: rgb(198, 91, 141);
+}
+.title-header a{
+    color:rgb(2, 28, 2);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container a{
+text-decoration: none;
+}
+
+/* Button */
+.delete {
+    color: red;
+}
+
+.update {
+    color: green;
+}
+
+/* PC */
+/* @media(min-with: 1024px){
+
+} */
+
+/* Tablet */
+/* @media(min-with: 740px) and (max-with: 1024px){
+    
+} */
+
+/* Mobi */
+/* @media(min-with: 1024px){
+
+} */
+table tr th{
+    color: brown;
+}
